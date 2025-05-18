@@ -4291,15 +4291,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "towers"
-version = "0.1.0"
-dependencies = [
- "avian2d",
- "bevy",
- "rand 0.9.1",
-]
-
-[[package]]
 name = "tracing"
 version = "0.1.41"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5431,6 +5422,15 @@ name = "zeno"
 version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6df3dc4292935e51816d896edcd52aa30bc297907c26167fec31e2b0c6a32524"
+
+[[package]]
+name = "zero-drift"
+version = "0.1.0"
+dependencies = [
+ "avian2d",
+ "bevy",
+ "rand 0.9.1",
+]
 
 [[package]]
 name = "zerocopy"
